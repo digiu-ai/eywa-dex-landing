@@ -1,0 +1,7 @@
+include ../socials/socials.pug
+mixin menu(data)
+    .menu
+        .menu__items
+            each val in data
+                a(href=val.href target='_blank').menu__item #{val.label} 
+        +socials(socials.headerList)
