@@ -1,3 +1,6 @@
 var data = {subscribe: {
-  button: 'Subscribe'
+  button: {
+    title: 'Subscribe',
+    type: 'default'
+  }
 }};
