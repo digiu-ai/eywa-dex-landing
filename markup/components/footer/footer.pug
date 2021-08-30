@@ -9,5 +9,6 @@ mixin footer(data)
         .footer__links
             each val in footer.defaultLinkList
                 a.footer__link(href=val.href) #{val.label} 
-        +subscribe().footer__subscribe
+        .footer__subscribe
+            +subscribe()
             

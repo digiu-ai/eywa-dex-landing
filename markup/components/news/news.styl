@@ -1,3 +1,6 @@
+$newsCardWidthDesktop = 416px
+$newsCardWidthDesktop1 = 256px
+
 .news
   display flex
   flex-direction column
@@ -15,11 +18,11 @@
     background-color #fff
     border-radius 4px
     margin-right 32px
-    max-width 416px
+    max-width $newsCardWidthDesktop
     &:last-child
       margin-right 0
     &-img
-      width 416px
+      width $newsCardWidthDesktop
     &-content
       padding 24px
       &-date
@@ -40,3 +43,24 @@
         line-height 30px
         color #3BC199
         cursor pointer
+
+@media screen and (max-width: $desktop1)
+  .news
+    &__title
+      font-size 40px
+      line-height 62px
+      margin-bottom 64px
+    &__item
+      max-width $newsCardWidthDesktop1
+      &-img
+        width $newsCardWidthDesktop1
+      &-content
+        &-date
+          font-size 14px
+          line-height 16px
+        &-text
+          font-size 16px
+          line-height 24px
+        &-more
+          font-size 14px
+          line-height 16px
