@@ -10,9 +10,13 @@
     margin-bottom 80px
   &__content
     display flex
-  &__section
+  &__section.section
     margin-right 32px
     max-width 640px
+    &._with-logo
+      background-image url('%=static=%general/just-logo.svg')
+      background-repeat no-repeat
+      background-position: bottom 42px right 44px
     &:last-child
       margin-right 0
   &__button
