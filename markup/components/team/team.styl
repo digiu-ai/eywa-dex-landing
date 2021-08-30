@@ -9,9 +9,9 @@
     line-height 62px
     margin-bottom 104px
    &__list
-    width 100%
+    width calc(100% - 140px)
+    justify-content center
     max-width: 1505px
-    margin 0 auto
     display grid
     grid-gap 56px 100px
     grid-template-columns repeat(auto-fill, 216px)
@@ -30,10 +30,30 @@
       line-height 24px
      &-img
       width: 216px
+      margin-bottom 24px
    &__link
     font-weight normal
     font-size 16px
     line-height 24px
     color #3BC199
+
+@media screen and (max-width: $desktop1)
+  .team
+    margin-bottom 110px
+    &__title
+      font-size 40px
+      line-height 62px
+      margin-bottom 64px
+    &__list
+      grid-gap 40px 128px
+    &__item
+      &-title
+        font-size 20px
+        line-height 30px
+      &-img
+        width 160px
+    &__link
+      font-size 16px
+      line-height 24px
   
   
