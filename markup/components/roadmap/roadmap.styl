@@ -1,6 +1,6 @@
 .roadmap
-  width calc(100% - 70px)
-  padding-left 70px
+  width calc(100% - 140px)
+  padding 0 70px
   margin-bottom 140px
   &__title
     text-align center
@@ -10,8 +10,10 @@
     line-height 62px
     letter-spacing 1px
   &__content
-    display flex
-    justify-content space-between
+    position relative
+    &-inner
+      display flex
+      justify-content space-between
   &__year
     font-weight 500
     font-size 16px
@@ -39,3 +41,12 @@
       line-height 24px
       &._unchecked
         color #818EA7
+  &__empty
+    margin-bottom 40px
+    margin-left: -4px
+  &__vertical-line
+    height: 2px
+    width: calc(100% + 70px)
+    background-color #3BC199
+    position absolute
+    top 90px
