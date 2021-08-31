@@ -52,5 +52,12 @@ var data = {socials: {
       icon: '%=static=%img/assets/socials/twitter.svg',
       href: '',
     },
+  ],
+  headerShortList: [
+    {
+      alt: 'telegram',
+      icon: '%=static=%img/assets/socials/telegram.svg',
+      href: '',
+    },
   ]
 }};

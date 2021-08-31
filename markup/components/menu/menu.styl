@@ -15,3 +15,16 @@
     text-transform uppercase
     &:last-child
       margin-right 0
+  &__socials
+    &._short
+      display none
+
+@media screen and (max-width: $desktop2)
+  .menu
+    &__items
+      display none
+    &__socials
+      display none
+      &._short
+        display block
+        margin-right 16px
