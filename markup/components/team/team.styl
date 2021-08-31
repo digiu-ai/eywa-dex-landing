@@ -64,5 +64,28 @@
       line-height 32px
     &__list
       grid-gap 32px 128px
+
+@media screen and (max-width: $mobile)
+  .team
+    &__title
+      font-size 24px
+      line-height 20px
+      margin-bottom 40px
+      font-weight 500
+    &__list
+      grid-gap 25px 40px
+      width calc(100% - 32px)
+    &__item
+      &-title
+        font-size 14px
+        line-height 20px
+      &-img
+        width 100px
+      &-subtitle
+        font-size 12px
+        line-height 16px
+    &__link
+      font-size 12px
+      line-height 16px
   
   

@@ -85,3 +85,26 @@
       line-height 20px
       margin-bottom auto
       align-self flex-end
+
+@media screen and (max-width: $mobile)
+  .join
+    margin-bottom 80px
+    padding 0 16px
+    &__title
+      font-size 24px
+      line-height 20px
+      margin-bottom 32px
+      font-weight 500
+    &__content
+      flex-direction column
+    &__section.section
+      margin-bottom 16px
+      margin-right 0
+      width calc(100% - 32px)
+      max-width none
+      height auto
+      &:last-child
+        margin-bottom 0
+  .section
+    &__text
+      margin-bottom 16px
