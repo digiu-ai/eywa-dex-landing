@@ -18,6 +18,11 @@
   &__socials
     &._short
       display none
+  &__mobile
+    display none
+  &__socials
+    & > div
+      grid-auto-flow column
 
 @media screen and (max-width: $desktop2)
   .menu
@@ -28,3 +33,5 @@
       &._short
         display block
         margin-right 16px
+    &__mobile
+      display block
