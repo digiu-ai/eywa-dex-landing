@@ -8,7 +8,8 @@ mixin roadmap(data)
                 .roadmap__list
                     each val in roadmap.list
                         .roadmap__items
-                            .roadmap__vertical-line(style={height: 'calc(60px + 110px*'+ val.steps.length + ' - 90px - 15px)'})
+                            .roadmap__vertical-line(style={height: 'calc(60px + 140px*'+ val.steps.length + ' - 90px - 15px)'})
+                            .roadmap__vertical-line._mobile(style={height: 'calc(60px + 110px*'+ val.steps.length + ' - 90px - 15px)'})
                             .roadmap__year #{val.year}
                             .roadmap__quartal #{val.title}
                             img(src='%=static=%img/assets/roadmap/unchecked.svg').roadmap__empty
