@@ -1,6 +1,7 @@
 var data = {subscribe: {
   button: {
     title: 'Subscribe',
-    type: 'default'
+    type: 'default',
+    class: 'subscribe__button',
   }
 }};

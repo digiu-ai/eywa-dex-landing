@@ -9,5 +9,7 @@ mixin menu(data)
             +socials(socials.headerList)
         .menu__socials._short
             +socials(socials.headerShortList)
-        .menu__mobile 
-            +mobile-menu()
+        .menu__mobile#mobile-menu-button
+            img(src='%=static=%img/assets/menu/menu.svg')
+        .menu__mobile-menu#mobile-menu
+            +mobile-menu(menu.links)
