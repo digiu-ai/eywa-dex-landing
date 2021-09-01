@@ -929,6 +929,53 @@ body {
     width: calc(100% - 32px);
   }
 }
+.partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.partners__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 70px;
+}
+.partners__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.partners__item {
+  margin-right: 50px;
+}
+.partners__item:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 720px) {
+  .partners__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .partners__item {
+    margin-right: 0;
+    margin-bottom: 54px;
+  }
+  .partners__item:last-child {
+    margin-bottom: 0;
+  }
+}
 .roadmap {
   width: calc(100% - 140px);
   padding: 0 70px;
@@ -1112,53 +1159,6 @@ body {
   .roadmap__horizontal-line {
     left: 20px;
     top: 78px;
-  }
-}
-.partners {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.partners__title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 70px;
-}
-.partners__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.partners__item {
-  margin-right: 50px;
-}
-.partners__item:last-child {
-  margin-right: 0;
-}
-@media screen and (max-width: 720px) {
-  .partners__items {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .partners__item {
-    margin-right: 0;
-    margin-bottom: 54px;
-  }
-  .partners__item:last-child {
-    margin-bottom: 0;
   }
 }
 .socials {
