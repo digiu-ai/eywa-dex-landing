@@ -188,7 +188,7 @@ body {
 }
 .page__wrapper {
   min-height: 100%;
-  background: url("../img//general/background.svg") #03011f;
+  background: url("../img//general/background.png") #03011f;
   background-size: cover;
 }
 * html .page__wrapper {
@@ -196,6 +196,43 @@ body {
 }
 .page__buffer {
   height: 90px;
+}
+.button {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  height: 48px;
+  padding: 0 32px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.button.default {
+  -webkit-box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
+          box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
+  background: #0ccfac;
+}
+.button.secondary {
+  border: 1px solid #fff;
+  background: transparent;
+}
+@media screen and (max-width: 1760px) {
+  .button {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 28px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .button {
+    padding: 0 14px;
+    font-size: 10px;
+    line-height: 20px;
+    height: 40px;
+  }
 }
 .basics {
   max-width: 1088px;
@@ -218,7 +255,7 @@ body {
   margin-bottom: 56px;
 }
 .basics__title > span {
-  color: #3bc199;
+  color: #0ccfac;
 }
 .basics__subtitle {
   font-weight: 500;
@@ -247,7 +284,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
-  color: #373d47;
+  color: #373747;
 }
 @media screen and (max-width: 1760px) {
   .basics {
@@ -330,43 +367,6 @@ body {
   }
   .basics__item {
     padding: 32px 16px;
-  }
-}
-.button {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  height: 48px;
-  padding: 0 32px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.button.default {
-  -webkit-box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
-          box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
-  background: #3bc199;
-}
-.button.secondary {
-  border: 1px solid #fff;
-  background: transparent;
-}
-@media screen and (max-width: 1760px) {
-  .button {
-    font-size: 12px;
-    line-height: 20px;
-    padding: 0 28px;
-  }
-}
-@media screen and (max-width: 1280px) {
-  .button {
-    padding: 0 14px;
-    font-size: 10px;
-    line-height: 20px;
-    height: 40px;
   }
 }
 .footer {
@@ -530,13 +530,13 @@ body {
   font-size: 24px;
   line-height: 34px;
   margin-bottom: 24px;
-  color: #373d47;
+  color: #373747;
 }
 .section__text {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #373d47;
+  color: #373747;
   margin-bottom: 24px;
 }
 @media screen and (max-width: 1760px) {
@@ -859,14 +859,14 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
-  color: #373d47;
+  color: #373747;
   margin-bottom: 16px;
 }
 .news__item-content-more {
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  color: #3bc199;
+  color: #0ccfac;
   cursor: pointer;
 }
 @media screen and (max-width: 1760px) {
@@ -1006,7 +1006,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  color: #3bc199;
+  color: #0ccfac;
   margin-bottom: 16px;
 }
 .roadmap__items {
@@ -1033,9 +1033,6 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
-.roadmap__item-text._unchecked {
-  color: #818ea7;
-}
 .roadmap__empty {
   margin-bottom: 40px;
   margin-left: -4px;
@@ -1043,7 +1040,7 @@ body {
 .roadmap__horizontal-line {
   height: 2px;
   width: calc(100% + 70px);
-  background-color: #3bc199;
+  background-color: #0ccfac;
   position: absolute;
   top: 90px;
 }
@@ -1054,7 +1051,7 @@ body {
   width: 2px;
   left: 15px;
   top: 90px;
-  background-color: #3bc199;
+  background-color: #0ccfac;
   position: absolute;
 }
 .roadmap__vertical-line._mobile {
@@ -1336,7 +1333,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #3bc199;
+  color: #0ccfac;
 }
 @media screen and (max-width: 1760px) {
   .team {
@@ -1427,7 +1424,7 @@ body {
   margin-bottom: 56px;
 }
 .welcome__subtitle > span {
-  color: #3bc199;
+  color: #0ccfac;
 }
 .welcome__video {
   margin-bottom: 16px;
