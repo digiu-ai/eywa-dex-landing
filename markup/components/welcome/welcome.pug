@@ -1,12 +1,14 @@
 include ../button/button.pug
 mixin welcome(data)
     .welcome
-        .welcome__title Cross-chain AMM DEX
-        .welcome__subtitle powered by 
-            span#protocolLink EYWA Data Protocol
-        .welcome__buttons
-            +button(welcome.mainButton)
-            +button(welcome.secondaryButton)
+        .welcome__inner
+            .welcome__title Cross-chain AMM DEX
+            .welcome__subtitle powered by 
+                span#protocolLink EYWA Data Protocol
+            .welcome__video-hint Take part in EYWA alpha testing challenge, complete simple tasks, earn pionts and get a chance to get unique NFTs
+            .welcome__buttons
+                +button(welcome.mainButton)
+                +button(welcome.secondaryButton)
 
 //-         iframe(id="player" type="text/html" width="560" height="288"
 //-   src="https://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
