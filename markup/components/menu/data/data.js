@@ -10,12 +10,12 @@ var data = {menu: {
       isExternal: true,
     },
     {
-      label: 'News',
-      href: '#news',
-    },
-    {
       label: 'Community',
       href: '#community',
+    },
+    {
+      label: 'News',
+      href: '#news',
     },
     {
       label: 'Team',
