@@ -2,11 +2,11 @@ var data = {basics: {
   list: [
     {
       icon: '%=static=%img/assets/basics/swap.svg',
-      label: 'SWAP tokens between different blockchains from one point',
+      label: 'Swap tokens between different blockchains on one website',
     },
     {
       icon: '%=static=%img/assets/basics/low-cost.svg',
-      label: 'Pay low-cost comission with your favorite tokens',
+      label: 'Pay low comission with your favorite tokens',
     },
     {
       icon: '%=static=%img/assets/basics/amm.svg',
@@ -14,11 +14,11 @@ var data = {basics: {
     },
     {
       icon: '%=static=%img/assets/basics/rewards.svg',
-      label: 'Get rewards from cross-chain staking and farming',
+      label: 'Avoid impermanent losses with liquidity limited cross-chain pools',
     },
     {
       icon: '%=static=%img/assets/basics/loses.svg',
-      label: 'Escape impermanent losses with liquidity limited cross-chain pools',
+      label: 'Get rewards from cross-chain staking and farming',
     },
     {
       icon: '%=static=%img/assets/basics/scale.svg',
