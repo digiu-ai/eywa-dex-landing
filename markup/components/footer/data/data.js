@@ -5,11 +5,11 @@ var data = {footer: {
       href: '',
     },
     {
-      label: 'App',
+      label: 'Open App',
       href: '',
     },
     {
-      label: 'Team',
+      label: 'DigiU.Lab',
       href: '',
     },
     {
@@ -29,7 +29,7 @@ var data = {footer: {
       href: '',
     },
     {
-      label: 'Roadmap',
+      label: 'GitHub',
       href: '',
     },
     {

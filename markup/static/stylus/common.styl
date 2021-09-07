@@ -4,14 +4,22 @@ html, body
     height 100%
     font-family Rubik
 
+body
+    &._is-modal-open
+        overflow-y hidden
 
 .page
     // Стили для body
 
 .page__wrapper
     min-height 100%
-    background: url('%=static=%/general/background.svg') #03011F
+    background: url('%=static=%/general/background.png') #03011F
     background-size cover
+
+@media screen and (max-width: $mobile)
+    .page__wrapper
+        background: url('%=static=%/general/background-mobile.png') #03011F
+        background-size cover
 
 
 * html .page__wrapper

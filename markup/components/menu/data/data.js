@@ -2,23 +2,28 @@ var data = {menu: {
   links: [
     {
       label: 'About',
-      href: '',
+      href: '#about',
     },
     {
-      label: 'Technology',
+      label: 'Data protocol',
       href: '',
+      isExternal: true,
     },
     {
       label: 'Community',
-      href: '',
+      href: '#community',
     },
     {
-      label: 'Github',
-      href: '',
+      label: 'News',
+      href: '#news',
     },
     {
-      label: 'Contacts',
-      href: '',
+      label: 'Team',
+      href: '#team',
+    },
+    {
+      label: 'Roadmap',
+      href: '#roadmap',
     }
   ]
 }};
