@@ -4,6 +4,8 @@
 
 
 
+
+
 const header = document.getElementById('header');
 const scrolledCheck = () => {
     const scrollY = window.scrollY;
@@ -30,10 +32,6 @@ menuButton.onclick = () => {
     document.body.className = document.body.className + ' _is-modal-open';
 };
 
-
-
-
-
 const closeButton = document.getElementById('mobile-menu__close-button');
 const navLinks = document.getElementsByClassName('mobile-menu__item');
 const closeHandler = () => {
@@ -45,6 +43,10 @@ for (let item of navLinks) {
     item.onclick = closeHandler;
 }
 closeButton.onclick = closeHandler;
+
+
+
+
 
 
 

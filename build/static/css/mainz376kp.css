@@ -207,43 +207,6 @@ body._is-modal-open {
 .page__buffer {
   height: 90px;
 }
-.button {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  height: 48px;
-  padding: 0 32px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.button.default {
-  -webkit-box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
-          box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
-  background: #0ccfac;
-}
-.button.secondary {
-  border: 1px solid #fff;
-  background: transparent;
-}
-@media screen and (max-width: 1760px) {
-  .button {
-    font-size: 12px;
-    line-height: 20px;
-    padding: 0 28px;
-  }
-}
-@media screen and (max-width: 1280px) {
-  .button {
-    padding: 0 14px;
-    font-size: 10px;
-    line-height: 20px;
-    height: 40px;
-  }
-}
 .basics {
   max-width: 1088px;
   display: -webkit-box;
@@ -393,6 +356,53 @@ body._is-modal-open {
   }
   .basics__item-text {
     text-align: center;
+  }
+}
+.button {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  height: 48px;
+  padding: 0 32px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.button.default {
+  -webkit-box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
+          box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
+  background: #0ccfac;
+}
+.button.secondary {
+  border: 1px solid #fff;
+  background: transparent;
+}
+@media screen and (max-width: 1760px) {
+  .button {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 28px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .button {
+    padding: 0 14px;
+    font-size: 10px;
+    line-height: 20px;
+    height: 40px;
+  }
+}
+.anchor {
+  visibility: hidden;
+  position: relative;
+  top: -130px;
+}
+@media screen and (max-width: 1760px) {
+  .anchor {
+    top: -78px;
   }
 }
 .footer {
@@ -1572,7 +1582,6 @@ body._is-modal-open {
 }
 @media screen and (max-width: 1280px) {
   .welcome {
-    margin: 0 auto 80px;
     padding-top: calc(40px + 78px);
   }
   .welcome__title {
@@ -1602,6 +1611,7 @@ body._is-modal-open {
 @media screen and (max-width: 720px) {
   .welcome {
     padding: calc(40px + 78px) 16px 0;
+    margin-bottom: 80px;
   }
   .welcome__title {
     font-size: 24px;
