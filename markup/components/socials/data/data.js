@@ -8,7 +8,7 @@ var data = {socials: {
     {
       alt: 'github',
       icon: '%=static=%img/assets/socials/github.svg',
-      href: '',
+      href: 'https://github.com/eywa-protocol',
     },
     // {
     //   alt: 'linkedin',
@@ -45,7 +45,7 @@ var data = {socials: {
     {
       alt: 'github',
       icon: '%=static=%img/assets/socials/github.svg',
-      href: '',
+      href: 'https://github.com/eywa-protocol',
     },
     {
       alt: 'telegram',

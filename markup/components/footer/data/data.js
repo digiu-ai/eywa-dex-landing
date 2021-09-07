@@ -25,7 +25,7 @@ var data = {footer: {
     },
     {
       label: 'Docs',
-      href: 'https://alpha.eywa.fi',
+      href: 'https://docs.eywa.fi/',
       isExternal: true,
     },
     {
@@ -34,7 +34,7 @@ var data = {footer: {
     },
     {
       label: 'GitHub',
-      href: '',
+      href: 'https://github.com/eywa-protocol',
       isExternal: true,
     },
     {
