@@ -2,51 +2,60 @@ var data = {footer: {
   defaultLinkList: [
     {
       label: 'Home',
-      href: '',
+      href: 'https://alpha.eywa.fi',
+      isExternal: true,
     },
     {
       label: 'Open App',
-      href: '',
+      href: 'https://alpha.eywa.fi',
+      isExternal: true,
     },
-    {
-      label: 'DigiU.Lab',
-      href: '',
-    },
-    {
-      label: 'Buy Eywa',
-      href: '',
-    },
+    // {
+    //   label: 'DigiU.Lab',
+    //   href: '',
+    // },
+    // {
+    //   label: 'Buy Eywa',
+    //   href: '',
+    // },
     {
       label: 'White Paper',
       href: '',
+      isExternal: true,
     },
     {
       label: 'Docs',
-      href: '',
+      href: 'https://docs.eywa.fi/',
+      isExternal: true,
     },
     {
       label: 'Roadmap',
-      href: '',
+      href: '#roadmap',
     },
     {
       label: 'GitHub',
-      href: '',
+      href: 'https://github.com/eywa-protocol',
+      isExternal: true,
     },
     {
       label: 'Medium',
-      href: '',
+      href: 'https://medium.com/@eywaprotocol',
+      isExternal: true,
     },
     {
       label: 'Twitter',
-      href: '',
+      href: 'https://twitter.com/eywaprotocol',
+      isExternal: true,
     },
     {
       label: 'Telegram',
-      href: '',
+      href: 'https://t.me/eywa_en',
+      isExternal: true,
     },
     {
       label: 'Youtube',
-      href: '',
+      href: 'https://www.youtube.com/channel/UCIbOrJC1owkE2ux1N8EBrmg',
+      isExternal: true,
     },
   ]
 }};

@@ -6,7 +6,7 @@ var data = {menu: {
     },
     {
       label: 'Data protocol',
-      href: '',
+      href: 'https://protocol.dev.eywa.fi/',
       isExternal: true,
     },
     {
