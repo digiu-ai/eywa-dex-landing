@@ -23,8 +23,6 @@ document.onscroll = () => {
     scrolledCheck();
 };
 
-
-
 const menuButton = document.getElementById('mobile-menu-button');
 menuButton.onclick = () => {
     const menu = document.getElementById('mobile-menu');
@@ -43,6 +41,8 @@ for (let item of navLinks) {
     item.onclick = closeHandler;
 }
 closeButton.onclick = closeHandler;
+
+
 
 
 
