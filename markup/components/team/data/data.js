@@ -56,6 +56,7 @@ var data = {team: {
     {
       title: 'Vladimir Smelov',
       subtitle: 'Solidity Developer',
+      linkedinLink: 'https://www.linkedin.com/in/vladimir-smelov-25021669/',
       img: '%=static=%img/assets/team/community.svg',
     },
     {
@@ -73,6 +74,7 @@ var data = {team: {
     {
       title: 'Alexey Nagorniy',
       subtitle: 'Frontend Developer, Teamlead',
+      linkedinLink: 'https://www.linkedin.com/in/chlenc/',
       img: '%=static=%img/assets/team/a.nagorny.jpg',
     },
     {
@@ -90,7 +92,7 @@ var data = {team: {
       title: 'Dmitriy Gromadsky',
       subtitle: 'Chief Product Designer',
       linkedinLink: 'http://www.linkedin.com/in/dgromadsky',
-      img: '%=static=%img/assets/team/community.svg',
+      img: '%=static=%img/assets/team/d.gromadskiy.jpg',
     },
     {
       title: 'Roman Fedoskin',
