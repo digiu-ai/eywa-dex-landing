@@ -4,7 +4,7 @@ var data = {team: {
       title: 'Alexander Denisov',
       subtitle: 'CTO',
       linkedinLink: 'https://www.linkedin.com/in/aler-denisov-43967647/',
-      img: '%=static=%img/assets/team/a.denisov.jpeg',
+      img: '%=static=%img/assets/team/a.denisov.jpg',
     },
     {
       title: 'Alexander I',
@@ -21,7 +21,8 @@ var data = {team: {
     {
       title: 'Sergey Zinenko',
       subtitle: 'CFO, founder',
-      img: '%=static=%img/assets/team/community.svg',
+      img: '%=static=%img/assets/team/s.zinenko.jpg',
+      linkedinLink: 'https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D0%B7%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE-690b2371/',
     },
     {
       title: 'Anatoliy Gugel',
@@ -33,31 +34,31 @@ var data = {team: {
       title: 'Denis Glotov',
       subtitle: 'Head of Tech',
       linkedinLink: 'https://www.linkedin.com/in/denisglotov/',
-      img: '%=static=%img/assets/team/d.glotov.jpeg',
+      img: '%=static=%img/assets/team/d.glotov2.jpg',
     },
     {
       title: 'Bogdan Sivochkin',
       subtitle: 'Blockchain Lead',
       linkedinLink: 'https://www.linkedin.com/in/integrationsarchitect/',
-      img: '%=static=%img/assets/team/b.sivochkin.jpg',
+      img: '%=static=%img/assets/team/b.sivochkin2.jpg',
     },
     {
       title: 'Dmitriy Christianov',
       subtitle: 'Golang Developer',
       linkedinLink: 'https://www.linkedin.com/in/dmitriy-khristianov-706aab109/',
-      img: '%=static=%img/assets/team/d.christianov.jpeg',
+      img: '%=static=%img/assets/team/d.christianov3.jpg',
     },
     {
-      title: 'Vadim Gusakov',
+      title: 'Vadim Gukasov',
       subtitle: 'Solidity Developer, Teamlead',
       linkedinLink: 'https://www.linkedin.com/in/vadim-gukasov-a2799b140/',
-      img: '%=static=%img/assets/team/v.gusakov.jpeg',
+      img: '%=static=%img/assets/team/v.gukasov2.jpg',
     },
     {
       title: 'Vladimir Smelov',
       subtitle: 'Solidity Developer',
       linkedinLink: 'https://www.linkedin.com/in/vladimir-smelov-25021669/',
-      img: '%=static=%img/assets/team/community.svg',
+      img: '%=static=%img/assets/team/v.smelov.jpg',
     },
     {
       title: 'Dmitriy Gogolev',
@@ -69,7 +70,7 @@ var data = {team: {
       title: 'Robert Sayahov',
       subtitle: 'Frontend Developer',
       linkedinLink: 'https://www.linkedin.com/in/robert-sayakhov/',
-      img: '%=static=%img/assets/team/r.sayahov.jpeg',
+      img: '%=static=%img/assets/team/r.sayahow.jpeg',
     },
     {
       title: 'Alexey Nagorniy',
@@ -81,7 +82,7 @@ var data = {team: {
       title: 'Stanislav Kardash',
       subtitle: 'Frontend Developer',
       linkedinLink: 'https://www.linkedin.com/in/realpeha/',
-      img: '%=static=%img/assets/team/community.svg',
+      img: '%=static=%img/assets/team/s.kardash.jpg',
     },
     {
       title: 'Andrey Starkov',
