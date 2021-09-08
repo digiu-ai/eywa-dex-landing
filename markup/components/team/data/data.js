@@ -1,32 +1,32 @@
 var data = {team: {
   teamList: [
     {
-      title: 'Alexander Denisov',
-      subtitle: 'CTO',
-      linkedinLink: 'https://www.linkedin.com/in/aler-denisov-43967647/',
-      img: '%=static=%img/assets/team/a.denisov.jpg',
-    },
-    {
       title: 'Alexander I',
-      subtitle: 'CSO, founder',
+      subtitle: 'Chief Strategic Officer, founder',
       linkedinLink: 'https://www.linkedin.com/in/alexander-i-874169a2/',
       img: '%=static=%img/assets/team/a.i.jpeg',
     },
     {
       title: 'Boris Povar',
-      subtitle: 'CEO, founder',
+      subtitle: 'Chief Executive Officer, founder',
       linkedinLink: 'https://www.linkedin.com/in/boris-povar/',
       img: '%=static=%img/assets/team/b.povar.jpeg',
     },
     {
       title: 'Sergey Zinenko',
-      subtitle: 'CFO, founder',
+      subtitle: 'Chief Financial Officer, founder',
       img: '%=static=%img/assets/team/s.zinenko.jpg',
       linkedinLink: 'https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D0%B7%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE-690b2371/',
     },
     {
+      title: 'Alexander Denisov',
+      subtitle: 'Chief Technical Officer',
+      linkedinLink: 'https://www.linkedin.com/in/aler-denisov-43967647/',
+      img: '%=static=%img/assets/team/a.denisov.jpg',
+    },
+    {
       title: 'Anatoliy Gugel',
-      subtitle: 'CMO',
+      subtitle: 'Chief Marketing Officer',
       linkedinLink: 'https://www.linkedin.com/in/anatoly-gugel-6541a543/',
       img: '%=static=%img/assets/team/a.gugel.jpeg',
     },
@@ -97,7 +97,7 @@ var data = {team: {
     },
     {
       title: 'Roman Fedoskin',
-      subtitle: 'CPO',
+      subtitle: 'Chief Product Officer',
       linkedinLink: 'https://www.linkedin.com/in/roman-fedoskin-b16b251a6/',
       img: '%=static=%img/assets/team/r.fedoskin.jpg',
     },
