@@ -18,11 +18,11 @@ var data = {footer: {
     //   label: 'Buy Eywa',
     //   href: '',
     // },
-    {
-      label: 'White Paper',
-      href: '',
-      isExternal: true,
-    },
+    // {
+    //   label: 'White Paper',
+    //   href: '',
+    //   isExternal: true,
+    // },
     {
       label: 'Docs',
       href: 'https://docs.eywa.fi/',
