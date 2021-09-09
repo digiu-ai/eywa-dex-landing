@@ -12,5 +12,5 @@ docsButton.onclick = () => {
     window.open('https://docs.eywa.fi/');
 };
 protocolLink.onclick = () => {
-    window.open('https://protocol.dev.eywa.fi/');
+    window.open('https://protocol.eywa.fi/');
 };
