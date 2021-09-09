@@ -6,7 +6,12 @@ var data = {menu: {
     },
     {
       label: 'Data protocol',
-      href: 'https://protocol.dev.eywa.fi/',
+      href: 'https://protocol.eywa.fi/',
+      isExternal: true,
+    },
+    {
+      label: 'AMM DEX ',
+      href: 'https://alpha.eywa.fi/',
       isExternal: true,
     },
     {
