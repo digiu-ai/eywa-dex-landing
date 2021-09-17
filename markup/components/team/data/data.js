@@ -101,5 +101,11 @@ var data = {team: {
       linkedinLink: 'https://www.linkedin.com/in/roman-fedoskin-b16b251a6/',
       img: '%=static=%img/assets/team/r.fedoskin.jpg',
     },
+    {
+      title: 'Dinar Saliakhov',
+      subtitle: 'QA Engineer',
+      linkedinLink: 'https://www.linkedin.com/in/dinar-saliakhov-57147a220/',
+      img: '%=static=%img/assets/team/d.saliakhov.jpeg',
+    },
   ]
 }};
