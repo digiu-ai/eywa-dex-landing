@@ -19,7 +19,7 @@ var data = {footer: {
     //   href: '',
     // },
     {
-      label: 'White Paper',
+      label: 'White Paper(RU)',
       href: 'https://eywa.fi/EYWA_whitepaper_ru.pdf',
       isExternal: true,
     },
