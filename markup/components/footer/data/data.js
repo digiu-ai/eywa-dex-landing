@@ -24,6 +24,11 @@ var data = {footer: {
       isExternal: true,
     },
     {
+      label: 'White Paper(EN)',
+      href: 'https://eywa.fi/EYWA_whitepaper_en.pdf',
+      isExternal: true,
+    },
+    {
       label: 'Docs',
       href: 'https://docs.eywa.fi/',
       isExternal: true,
