@@ -15,6 +15,11 @@ var data = {menu: {
       isExternal: true,
     },
     {
+      label: 'White Paper',
+      href: 'https://eywa.fi/EYWA_whitepaper_en.pdf',
+      isExternal: true,
+    },
+    {
       label: 'Community',
       href: '#community',
     },
