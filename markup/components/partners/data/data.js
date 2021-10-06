@@ -25,6 +25,7 @@ var data = {partners: {
     alt: 'john tiner',
     src: '%=static=%img/assets/partners/john.png',
     id: 'john-tiner',
+    size: '_xl'
     },
   ]
 }};
