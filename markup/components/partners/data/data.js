@@ -5,11 +5,13 @@ var data = {partners: {
     src: '%=static=%img/assets/partners/digiu.png',
     id: 'digiu'
     },
-    {
-    alt: 'rsquad',
-    src: '%=static=%img/assets/partners/rsquad.png',
-    id: 'rsquad'
-    },
+    // {
+    // alt: 'john tiner',
+    // src: '%=static=%img/assets/partners/john.png',
+    // id: 'john-tiner',
+    // isWhitebg: true,
+    // size: '_xl'
+    // },
     {
     alt: 'br capital',
     src: '%=static=%img/assets/partners/br.png',
@@ -22,10 +24,9 @@ var data = {partners: {
     isWhitebg: true,
     },
     {
-    alt: 'john tiner',
-    src: '%=static=%img/assets/partners/john.png',
-    id: 'john-tiner',
-    size: '_xl'
+    alt: 'rsquad',
+    src: '%=static=%img/assets/partners/rsquad.png',
+    id: 'rsquad'
     },
   ]
 }};
