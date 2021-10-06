@@ -15,5 +15,16 @@ var data = {partners: {
     src: '%=static=%img/assets/partners/br.png',
     id: 'br'
     },
+    {
+    alt: 'truevc',
+    src: '%=static=%img/assets/partners/truevc.png',
+    id: 'truevc',
+    isWhitebg: true,
+    },
+    {
+    alt: 'john tiner',
+    src: '%=static=%img/assets/partners/john.png',
+    id: 'john-tiner',
+    },
   ]
 }};

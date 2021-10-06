@@ -11,11 +11,16 @@
     display flex
     align-items center
     width 700px
-    justify-content space-between
+    justify-content space-around
+    flex-wrap: wrap
   &__item
     display flex
     justify-content space-around
     width 180px
+    margin-bottom 16px
+    &._white-bg
+      .partners__item-icon
+        background: #fff
     &-icon
       height 42px
       cursor pointer
