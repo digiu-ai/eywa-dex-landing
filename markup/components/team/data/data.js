@@ -105,7 +105,7 @@ var data = {team: {
       title: 'Dinar Saliakhov',
       subtitle: 'QA Engineer',
       linkedinLink: 'https://www.linkedin.com/in/dinar-saliakhov-57147a220/',
-      img: '%=static=%img/assets/team/d.saliakhov.jpeg',
+      img: '%=static=%img/assets/team/d.saliakhov.jpg',
     },
   ]
 }};
