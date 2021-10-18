@@ -85,11 +85,6 @@ var data = {team: {
       img: '%=static=%img/assets/team/s.kardash.jpg',
     },
     {
-      title: 'Andrey Starkov',
-      subtitle: 'Frontend Developer',
-      img: '%=static=%img/assets/team/community.svg',
-    },
-    {
       title: 'Dmitriy Gromadsky',
       subtitle: 'Chief Product Designer',
       linkedinLink: 'http://www.linkedin.com/in/dgromadsky',
