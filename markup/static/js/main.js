@@ -6,7 +6,7 @@
 
 const discord = 'https://discord.com/invite/wPqkHWetbc';
 const medium = 'https://medium.com/@eywaprotocol';
-const telegram = 'https://t.me/eywa_en';
+const telegram = 'https://t.me/EYWA_protocol_bot';
 const twitter = 'https://twitter.com/eywaprotocol';
 
 export default {
