@@ -10,11 +10,6 @@ var data = {socials: {
       icon: '%=static=%img/assets/socials/github.svg',
       href: 'https://github.com/eywa-protocol',
     },
-    // {
-    //   alt: 'linkedin',
-    //   icon: '%=static=%img/assets/socials/linkedin.svg',
-    //   href: '',
-    // },
     {
       alt: 'discord',
       icon: '%=static=%img/assets/socials/discord.svg',
@@ -39,6 +34,11 @@ var data = {socials: {
       alt: 'youtube',
       icon: '%=static=%img/assets/socials/youtube.svg',
       href: 'https://www.youtube.com/channel/UCDnOd4xwk6c-AVsDZ0Rm0Qg',
+    },
+    {
+      alt: 'linkedin',
+      icon: '%=static=%img/assets/socials/linkedin.svg',
+      href: '',
     },
   ],
   headerList: [
