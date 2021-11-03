@@ -25,10 +25,10 @@ var data = {team: {
       linkedinLink: 'https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D0%B7%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE-690b2371/',
     },
     {
-      title: 'Anatoliy Gugel',
-      subtitle: 'Chief Marketing Officer',
-      linkedinLink: 'https://www.linkedin.com/in/anatoly-gugel-6541a543/',
-      img: '%=static=%img/assets/team/a.gugel.jpeg',
+      title: 'Aidar Sabirov',
+      subtitle: 'IR Manager',
+      linkedinLink: 'https://www.linkedin.com/in/aidar-sabirov-bb400021a/',
+      img: '%=static=%img/assets/team/a.sabirov.jpeg',
     },
     {
       title: 'Denis Glotov',
