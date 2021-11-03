@@ -20,7 +20,7 @@ var data = {partners: {
     alt: 'truevc',
     src: '%=static=%img/assets/partners/truevc.png',
     id: 'truevc',
-    isWhitebg: true,
+    isWhitebg: false,
     },
     {
     alt: 'rsquad',
