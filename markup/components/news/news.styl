@@ -104,6 +104,7 @@ $newsCardWidthDesktop1 = 256px
 @media screen and (max-width: $mobile)
   .news
     margin-bottom 80px
+    
     &__title
       font-weight 500
       font-size 24px
@@ -112,3 +113,7 @@ $newsCardWidthDesktop1 = 256px
     &__content
       padding 0 16px 50px
       width calc(100% - 32px)
+      max-height: fit-content
+      overflow-y: hidden
+    &__item
+      max-height: 354px
