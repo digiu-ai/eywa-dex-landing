@@ -102,5 +102,10 @@ var data = {team: {
       linkedinLink: 'https://www.linkedin.com/in/dinar-saliakhov-57147a220/',
       img: '%=static=%img/assets/team/d.saliakhov.jpg',
     },
+    {
+      title: 'Leo Kangin',
+      subtitle: 'Business Developer',
+      img: '%=static=%img/assets/team/l.kangin.png',
+    },
   ]
 }};
