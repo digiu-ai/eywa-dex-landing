@@ -105,6 +105,7 @@ var data = {team: {
     {
       title: 'Leo Kangin',
       subtitle: 'Business Developer',
+      linkedinLink: 'https://www.linkedin.com/in/lkangin',
       img: '%=static=%img/assets/team/l.kangin.png',
     },
   ]
